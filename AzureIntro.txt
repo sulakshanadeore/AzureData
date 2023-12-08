@@ -1,0 +1,133 @@
+Azure:
+What is Azure?
+
+Cloud, it changed the way the world works.
+extend business--->
+Azure is a cloud computing platform from Microsoft.
+It is very much expanded/expanding day by day, for giving different types of services to build solutions for business.
+1) VM--Virtual machine running on the cloud for host and running your software.
+2) Storage---relational/non-relational 
+3) software development and deployment services
+4) Networking
+5) AI,ML,IOT etc
+
+1)on premise--on datacenter----> security and availability
+2) microsoft/amazon-----security and availability
+
+
+Regions
+Availability Sets
+IAAS-----Infrastructure as a Service(VM)
+PAAS-----Platform as a Service
+SAAS-----Software as a Service(OS,SQL SERVER...)
+
+
+1) DataCenters: Whenever a VM, on the cloud,physical space. A building that contains physical server/s.
+Many many servers which are connected using a network.
+Cooler,Power.
+150+ data centers---> only India
+Project Natick----Some Data Centers below the ocean, that project is called "Project Natick"
+DATACENTERS ARE SEALED and 2yrs to avoid----Corrosion,humidity, bumps.
+
+
+
+Region Pairs
+Availability Zones
+2)Geographies: are countries atleast one azure region exists.
+
+
+INDIA: 
+US
+UK
+Canada
+Africa
+Australia
+Europe
+China
+France
+Germany
+UAE
+
+
+3) Regions: 
+India
+Central India
+Pune-----> DataCenter
+Hyderabad----> Coming soon
+Chennai---->Data Center
+
+resilient---if problem with one of the regions other region will take care of it.
+
+
+3) Regions	
+	A           B                  C
+Central India  India South Central   South India
+Done by the traffic manager: if a goes down, b will take care of the requests of a and when a is up again the traffic will be diverted back to a.
+
+
+
+
+4) Azure Availability Zone: unique physical location within the azure region, it is made up of one or more data centers with independent power, cooling,neworking.
+3 places the bakcup of the data will be available.
+99.9% the server will be always work--SLA(Service Level Agreement)
+
+Azure fault domain and update domain.
+
+A
+Pune              
+VM--->1  + 2
+
+
+Zonal Services---- VM, Manual Replication
+Zone-Redundant---- Automatic Replication, Azure SQL Database
+
+Azure Paired regions: Pair of azure zones within the same geography.
+------------------------------------------------------------------------
+
+Azure Resource
+Azure Resource Group
+
+
+Resources are instances of azure services that u create, VM,app service,storage,sql server dataase,etc
+
+Multiple resources when grouped together ---Azure Resource Group
+
+1) VM----host and run my web app
+2)Storage----images/videos etc
+3) SQL database---to sotre web app data
+
+Management Groups for the services can be created as per the role and responsibilties of the employee/s who will be doing the job.
+So that subscriptions could be availed the way required.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
